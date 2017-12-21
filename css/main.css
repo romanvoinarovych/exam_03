@@ -1,0 +1,377 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"), url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'ionicons';
+  src: url("../fonts/ionic/ionicons.woff"); }
+.cd-header {
+  height: 660px;
+  max-width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 154, 207, 0.7)), to(rgba(159, 154, 207, 0.7))), url("../img/DeathtoStock_Wired7.jpg") 50% 50% no-repeat;
+  background: linear-gradient(rgba(159, 154, 207, 0.7), rgba(159, 154, 207, 0.7)), url("../img/DeathtoStock_Wired7.jpg") 50% 50% no-repeat;
+  background-size: cover; }
+  .cd-header .cd-header__container {
+    padding: 30px 0 0; }
+  .cd-header .cd-header__info {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 0 25px; }
+    .cd-header .cd-header__info .cd-header__logo:hover {
+      text-decoration: none; }
+    @media only screen and (max-width: 1024px) {
+      .cd-header .cd-header__info .cd-header__navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; }
+        .cd-header .cd-header__info .cd-header__navigation .dropdown-menu-icon {
+          -webkit-transform: translate3d(-125px, 31px, 0px) !important;
+          transform: translate3d(-125px, 31px, 0px) !important;
+          background-color: transparent;
+          font-family: 'Montserrat', 'Arial', sans-serif;
+          margin: 0;
+          border: none; }
+          .cd-header .cd-header__info .cd-header__navigation .dropdown-menu-icon a {
+            color: white;
+            text-transform: uppercase; }
+          .cd-header .cd-header__info .cd-header__navigation .dropdown-menu-icon a:hover {
+            background-color: rgba(255, 255, 255, 0.7); }
+        .cd-header .cd-header__info .cd-header__navigation .dropdown-toggle::after {
+          display: none; }
+        .cd-header .cd-header__info .cd-header__navigation .menu_icon {
+          background: none;
+          border: none;
+          font-size: 30px; }
+        .cd-header .cd-header__info .cd-header__navigation .menu_icon {
+          -webkit-box-shadow: none;
+          box-shadow: none; } }
+    .cd-header .cd-header__info .cd-header__navigation .cd-header__nav {
+      list-style: none;
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0; }
+      .cd-header .cd-header__info .cd-header__navigation .cd-header__nav li {
+        display: block;
+        padding: 10px 20px;
+        border-radius: 2px; }
+      .cd-header .cd-header__info .cd-header__navigation .cd-header__nav li:hover {
+        border-radius: 2px;
+        background-color: rgba(255, 255, 255, 0.7); }
+      .cd-header .cd-header__info .cd-header__navigation .cd-header__nav li:hover > a {
+        color: #ffffff;
+        text-decoration: none; }
+      .cd-header .cd-header__info .cd-header__navigation .cd-header__nav a {
+        text-transform: uppercase;
+        font-family: 'ProximaNova', 'Arial', sans-serif;
+        font-style: normal;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 2.5;
+        color: white; }
+      @media screen and (max-width: 1024px) {
+        .cd-header .cd-header__info .cd-header__navigation .cd-header__nav {
+          display: none; } }
+    .cd-header .cd-header__info .cd-header__navigation .cd-header__nav-menu {
+      display: none; }
+      @media only screen and (max-width: 1024px) {
+        .cd-header .cd-header__info .cd-header__navigation .cd-header__nav-menu {
+          display: block; } }
+      @media only screen and (max-width: 768px) {
+        .cd-header .cd-header__info .cd-header__navigation .cd-header__nav-menu {
+          display: block; } }
+      @media only screen and (max-width: 576px) {
+        .cd-header .cd-header__info .cd-header__navigation .cd-header__nav-menu {
+          display: none; } }
+  .cd-header .cd-header__title {
+    font-family: 'ProximaNova', 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 0.83;
+    color: #fefefb;
+    text-transform: uppercase;
+    text-align: center; }
+    .cd-header .cd-header__title h1 {
+      margin: 7rem 0 0; }
+  .cd-header .cd-header__text {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    text-align: center;
+    color: #fefdfd;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal; }
+    .cd-header .cd-header__text p {
+      margin: 1rem 0 0; }
+
+.cd-about {
+  padding: 125px 0 0; }
+  .cd-about .cd-about__item--link {
+    position: relative;
+    cursor: pointer;
+    display: block; }
+    .cd-about .cd-about__item--link .cd-about__hover {
+      position: absolute;
+      min-height: 100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; }
+      .cd-about .cd-about__item--link .cd-about__hover img {
+        padding: 75px 0 44px; }
+      .cd-about .cd-about__item--link .cd-about__hover h3 {
+        font-family: 'ProximaNova', 'Arial', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fefbfc;
+        margin: 0; }
+  .cd-about .cd-about__item--link:hover > .cd-about__hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: display .25s ease-in;
+    transition: display .25s ease-in; }
+  .cd-about .cd-about__text {
+    padding: 5rem 0 0;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #665f60;
+    font-style: italic;
+    padding-bottom: 120px; }
+    .cd-about .cd-about__text p:first-child {
+      margin-bottom: 2rem; }
+    @media only screen and (max-width: 1200px) {
+      .cd-about .cd-about__text {
+        padding: 0 0 3rem; } }
+  .cd-about .cd-about__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    color: #7d7a7c;
+    font-size: 1.4rem;
+    border: solid 1px #7d7a7c;
+    margin: 5rem 0 0;
+    line-height: 3rem; }
+    @media only screen and (max-width: 1200px) {
+      .cd-about .cd-about__link {
+        margin: 2rem 0 0; } }
+  .cd-about .cd-about__link:hover {
+    text-decoration: none;
+    font-weight: 700;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background-color: rgba(159, 154, 207, 0.7); }
+  .cd-about .cd-about__item--container div:nth-child(1) {
+    background-color: #dbdbdb; }
+  .cd-about .cd-about__item--container div:nth-child(2) {
+    background-color: #ebebeb; }
+  .cd-about .cd-about__item--container div:nth-child(3) {
+    background-color: #ebebeb; }
+  .cd-about .cd-about__item--container div:nth-child(4) {
+    background-color: #dbdbdb; }
+  .cd-about .cd-about__item--container .cd-about__item {
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    color: #665f60; }
+    .cd-about .cd-about__item--container .cd-about__item h3 {
+      margin: 2rem 0 1.5rem;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      font-weight: bold; }
+    .cd-about .cd-about__item--container .cd-about__item p {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin: 0 2rem; }
+  .cd-about .cd-about__item--container .item--big {
+    height: 800px;
+    color: #fefcfd;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 154, 207, 0.7)), to(rgba(159, 154, 207, 0.7))), url("../img/item6.jpg") 50% 50% no-repeat;
+    background: linear-gradient(rgba(159, 154, 207, 0.7), rgba(159, 154, 207, 0.7)), url("../img/item6.jpg") 50% 50% no-repeat; }
+
+.cd-works-bg {
+  padding-bottom: 75px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 154, 207, 0.7)), to(rgba(159, 154, 207, 0.7))), url("../img/DeathtoStock_Wired3.jpg") 50% 50% no-repeat;
+  background: linear-gradient(rgba(159, 154, 207, 0.7), rgba(159, 154, 207, 0.7)), url("../img/DeathtoStock_Wired3.jpg") 50% 50% no-repeat;
+  height: 100%; }
+  .cd-works-bg .cd-works--slider__title {
+    padding-top: 50px; }
+    .cd-works-bg .cd-works--slider__title .slider__title-img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .cd-works-bg .cd-works--slider__title h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      color: #fefcfd;
+      font-family: 'ProximaNova', 'Arial', sans-serif;
+      margin: 30px 0 70px; }
+  .cd-works-bg .cd-slider--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 115px; }
+  .cd-works-bg .cd-works__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border: solid 1px  #ffffff;
+    margin: 0;
+    line-height: 3rem;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: italic; }
+  .cd-works-bg .cd-works__link:hover {
+    text-decoration: none;
+    font-weight: 700;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    background-color: rgba(159, 154, 207, 0.7); }
+
+.cd-team {
+  padding: 70px 0 0; }
+  .cd-team .team__title-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .cd-team h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #665f60;
+    font-family: 'ProximaNova', 'Arial', sans-serif;
+    margin: 30px 0 70px; }
+  .cd-team .cd-team-slider--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 100px; }
+
+.cd-footer__container {
+  background-color: #9f9acf;
+  padding: 2rem 0; }
+  .cd-footer__container .cd-footer__container--text {
+    font-size: 1.3rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    margin: 0; }
+    @media only screen and (max-width: 762px) {
+      .cd-footer__container .cd-footer__container--text {
+        text-align: center; } }
+  .cd-footer__container .cd-footer--links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    @media only screen and (max-width: 762px) {
+      .cd-footer__container .cd-footer--links {
+        margin: 3rem 0 0; } }
+
+/*# sourceMappingURL=main.css.map */
